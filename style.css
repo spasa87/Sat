@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 29px 29px 29px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("./images/clock.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 30px;
+    box-shadow: rgba(25, 29, 65, 0.2) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0 18px 36px -18px inset;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background-color:darkkhaki;
+    border-radius: 50%;
+    position: absolute;
+    top: 145px;
+    left: 145px;
+    z-index: 10;
+}
+
+#hour {
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 148px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: bottom;
+    box-shadow: rgb(75, 63, 63) 0 2px 8px 0;
+}
+
+#minute {
+    width: 3px;
+    height: 85px;
+    background-color: black;
+    position: absolute;
+    top: 66px;
+    left: 147px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: bottom;
+    box-shadow: rgb(75, 63, 63) 0 2px 8px 0;
+}
+
+#second {
+    width: 3px;
+    height: 110px;
+    background-color: midnightblue;
+    position: absolute;
+    top: 40px;
+    left: 148px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: bottom;
+    box-shadow: rgb(75, 63, 63) 0 2px 8px 0;
+    z-index: 1;
+}
+
+#digital {
+    margin: 70px auto 0 auto;
+    width: 400px;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: cadetblue;
+    border: 4px double cadetblue;
+    border-radius: 30px;
+}
+
+#greeting {
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    background-color:beige;
+    border-radius: 50px;
+    font-size: 4rem;
+    font-family: 'Satisfy', cursive;
+    color:chocolate;
+    box-shadow: rgba(0, 0, 0, 0.25) 29px 29px 29px 4px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+
+#date {
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 1.9rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: cadetblue;
+    border: 4px double cadetblue;
+    border-radius: 30px;
+}
